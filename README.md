@@ -1,7 +1,7 @@
 # BlueROVarmROScontroller
 sending PWM signals from computer's keyboard to BlueROV Newton Arm 
 
-## Make Your ROS workspace 
+## Make Your ROS Workspace 
 $ mkdir -p ~/catkin_ws/src
 
 $ cd ~/catkin_ws/
@@ -10,7 +10,7 @@ $ catkin_make
 
 ## Enable Workspace 
 
-> type this following command in Terminal 
+>type this following command in Terminal 
 
 $ gedit .bashrc
 
@@ -32,7 +32,7 @@ $ roscd
   
 > Install Arduino IDE on your machine 
 
-## Installing arduino rosserrial on ROS workstation
+## Install Arduino-rosserrial on ROS workstation
   
   $ sudo apt-get install ros-DISTRO-rosserial-arduino
   
@@ -53,8 +53,9 @@ $ roscd
 > Now you can see ros_lib under examples in Ardunio IDE 
   
   
-
+## Ardunio UNO and Newton Subsea Gripper setup 
+  
+ > Connect Gripper PWM wire to Ardunio's port 9 (as defined in program) 
   
 
-  
 
