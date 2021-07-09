@@ -63,7 +63,9 @@ $ roscd
 ## Ardunio UNO and Newton Subsea Gripper setup 
   
  > 1.Connect Gripper PWM wire to Ardunio's port 9 (as defined in program) 
+ > 
  > 2.Connect power cables to BlueRov or provide them 9 - 18 volts (6 Amps)
+ > 
  > 3.Upload ServoContol code on Ardunio UNO Board (Take code from this repo)
  > 
  > 4.Verfy the port address from Arduino IDE 
