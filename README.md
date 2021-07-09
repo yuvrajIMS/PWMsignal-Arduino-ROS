@@ -16,14 +16,15 @@ $ catkin_make
 $ gedit .bashrc
 
 
->now in this opened file source your_ws 
->type in end 'source /opt/ros/<DISTRO>/setup.bash'      // DISTRO is your ROS version 
+>Now in this opened file source your_ws 
 >
->and /YOUR_PATH/catkin_ws/devel/setup.bash 
+>Type in end 'source /opt/ros/< DISTRO >/setup.bash'           // DISTRO is your ROS version i.e. Noetic 
 >
->now save changes and close this file and  
+>And /YOUR_PATH/catkin_ws/devel/setup.bash 
 >
->verify this step in Termail by command 
+>Now save changes and close this file and  
+>
+>Verify this step in Termail by command 
   
   
 $ roscd 
@@ -62,10 +63,10 @@ $ roscd
 ## Ardunio UNO and Newton Subsea Gripper setup 
   
  > 1.Connect Gripper PWM wire to Ardunio's port 9 (as defined in program) 
- >
- > 2.Upload ServoContol code on Ardunio UNO Board (Take code from this repo)
+ > 2.Connect power cables to BlueRov or provide them 9 - 18 volts (6 Amps)
+ > 3.Upload ServoContol code on Ardunio UNO Board (Take code from this repo)
  > 
- > 3.Verfy the port address from Arduino IDE 
+ > 4.Verfy the port address from Arduino IDE 
   
  # Execution 
   
@@ -79,7 +80,7 @@ $ roscd
   
  > In 3rd Terminal window 
   
-  $ rostopic pub BlueROV std_msgs/UInt16 < MicroSeconds >
+  $ rostopic pub BlueROV std_msgs/UInt16   < MicroSeconds >
   
 >  When MicroSeconds = 1500 micros         (Neutral Signal)
 >
