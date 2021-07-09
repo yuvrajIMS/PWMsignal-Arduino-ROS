@@ -42,7 +42,7 @@ $ roscd
   $ sudo apt-get install ros-DISTRO-rosserial
   
   
-## ROS_LIB installation into Arduino IDE
+## ros_lib installation into Arduino IDE
 
 > NOTE : NEVER DOWNLOAD ROS PACKGAE FOR ARDUNIO FROM ARDUNIO IDE ITSELF, IF PRESENT ALREADY DELETE IT !!!
 >
