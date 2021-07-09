@@ -55,7 +55,9 @@ $ roscd
   
 ## Ardunio UNO and Newton Subsea Gripper setup 
   
- > Connect Gripper PWM wire to Ardunio's port 9 (as defined in program) 
+ > 1.Connect Gripper PWM wire to Ardunio's port 9 (as defined in program) 
+ > 2.Upload ServoContol code from this  
+ > 
   
 
 
