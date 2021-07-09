@@ -75,11 +75,11 @@ $ roscd
   
  > In 2nd Terminal window 
   
-  $ rosrun rosserial_python serial_node.py _port:=/dev/address_ardunio_USB
+  $ rosrun rosserial_python serial_node.py _port:=/dev/[address_ardunio_USB]
   
  > In 3rd Terminal window 
   
-  $ rostopic pub BlueROV std_msgs/UInt16 <MicroSeconds>
+  $ rostopic pub BlueROV std_msgs/UInt16 < MicroSeconds >
   
 >  When MicroSeconds = 1500 micros         (Neutral Signal)
 >
