@@ -32,9 +32,25 @@ $ roscd
   
 > Install Arduino IDE on your machine 
 
-## ROS_LIB installation 
+## Installing arduino rosserrial on ROS workstation
+  
+  $ sudo apt-get install ros-DISTRO-rosserial-arduino
+  
+  $ sudo apt-get install ros-DISTRO-rosserial
+  
+## ROS_LIB installation into Arduino IDE
 
-> NOTE : NEVER DOWNLOAD ROS PACKGAE FOR ARDUNIO FROM ARDUNIO IDE ITSELF !!!
+> NOTE : NEVER DOWNLOAD ROS PACKGAE FOR ARDUNIO FROM ARDUNIO IDE ITSELF, IF PRESENT ALREADY DELETE IT !!!
+>
+  > Now go in your ardunio library folder 
+  
+  $ cd <arduino_sketchbook>/libraries
+  
+  $ rm -rf ros_lib
+  
+  $ rosrun rosserial_arduino make_libraries.py
+  
+> Now you can see ros_lib under examples in Ardunio IDE 
   
   
 
