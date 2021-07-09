@@ -26,6 +26,19 @@ $ gedit .bashrc
   
 $ roscd 
   
+  
+  
+# ROS & Ardunino 
+  
+> Install Arduino IDE on your machine 
+
+## ROS_LIB installation 
+
+> NOTE : NEVER DOWNLOAD ROS PACKGAE FOR ARDUNIO FROM ARDUNIO IDE ITSELF !!!
+  
+  
+
+  
 
   
 
