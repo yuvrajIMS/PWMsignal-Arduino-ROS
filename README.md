@@ -24,7 +24,7 @@ $ gedit .bashrc
 >
 >Now save changes and close this file and  
 >
->Verify this step in Termail by command 
+>Verify this step in Terminal by command 
   
   
 $ roscd 
