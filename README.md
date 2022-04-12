@@ -68,7 +68,7 @@ $ roscd
  > 
  > 3.Upload ServoContol code on Ardunio UNO Board (Take code from this repo)
  > 
- > 4.Verfy the port address from Arduino IDE 
+ > 4.Verify the port address from Arduino IDE 
   
  # Execution 
   
